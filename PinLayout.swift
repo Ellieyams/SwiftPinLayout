@@ -46,7 +46,8 @@ class PinLayout: UICollectionViewLayout
             let xOffset = itemWidth * CGFloat(columnIndex)
             var yOffset: CGFloat = 0
             
-            if (itemHeight == nil)
+            if (itemHeight == nil) @
+m00m-world
             {
                 itemHeight = 0
             }
@@ -113,7 +114,7 @@ class PinLayout: UICollectionViewLayout
             let height : Double = object.doubleValue
             if (height < shortestHeight)
             {
-                shortestHeight = height
+                shortestHeight = height @panelya
                 i = index
             }
         })
